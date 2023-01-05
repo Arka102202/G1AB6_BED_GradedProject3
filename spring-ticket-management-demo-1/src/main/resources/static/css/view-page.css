@@ -116,9 +116,6 @@ main {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,4 +124,6 @@ footer {
   border-top: 1px solid rgb(121, 121, 121);
   font-size: 14px;
   color: #aaa;
+  margin-top: 96px;
+  place-self: end;
 }
